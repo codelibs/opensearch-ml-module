@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.codelibs.opensearch</groupId>
+  <artifactId>opensearch-ml-common</artifactId>
+  <version>__ML_VERSION__</version>
+  <packaging>jar</packaging>
+  <name>opensearch-ml-common</name>
+  <description>machine learning common for opensearch</description>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>OpenSearch</name>
+      <url>https://github.com/opensearch-project/ml-commons</url>
+    </developer>
+  </developers>
+  <url>https://github.com/opensearch-project/ml-commons.git</url>
+  <scm>
+    <url>https://github.com/opensearch-project/ml-commons.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.opensearch</groupId>
+      <artifactId>opensearch</artifactId>
+      <version>__OPENSEARCH_VERSION__</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.reflections</groupId>
+      <artifactId>reflections</artifactId>
+      <version>0.9.12</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.opensearch.client</groupId>
+      <artifactId>opensearch-rest-client</artifactId>
+      <version>__OPENSEARCH_VERSION__</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.opensearch</groupId>
+      <artifactId>common-utils</artifactId>
+      <version>__COMMON_UTILS_VERSION__</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>4.4.0</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
